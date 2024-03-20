@@ -1,0 +1,42 @@
+# Python bytecode files
+*.pyc
+
+# Django project files
+*.log
+*.sqlite3
+db.sqlite3
+local_settings.py
+
+# Virtualenv
+env/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Coverage
+.coverage
+
+# Static files (use your own pattern here)
+static/
+
+# Thumbnails
+media/thumbs/
+
+# IDE/Text editor files
+*.idea/
+.vscode/
+
+# Local configuration
+.env
+
+# OS-specific files
+.DS_Store
+
+# Others
+Thumbs.db
+.DS_Store
+node_modules/
+
+# Generated files
+.pytest_cache/
